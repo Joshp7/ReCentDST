@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReCentDST Limited - Research Centre for Development in Science and Technology</title>
+    <meta name="description" content="ReCentDST Limited - Leading research, development, and technology company in Sierra Leone. Innovative digital solutions, comprehensive research services, and strategic consulting.">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glassmorphism-nav" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="ReCentDST Limited" class="logo">
+                <span class="brand-text">ReCentDST</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu glassmorphism-dropdown">
+                            <li><a class="dropdown-item" href="services.html#research">Research & Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#digital">Digital Solutions</a></li>
+                            <li><a class="dropdown-item" href="services.html#market">Market Intelligence</a></li>
+                            <li><a class="dropdown-item" href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary cta-btn" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="hero-title">
+                        <span>Research Centre for</span><br>
+                        <span>Development in Science</span><br>
+                        <span>and Technology SL Ltd</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        ReCentDST Limited is a multi-disciplinary research and technology company comprised of experts in Science, Marketing, Research, ICT and Technology, realizing the need for high quality technical expertise, results and service.
+                    </p>
+                    <p class="hero-description">
+                        We empower organizations across Africa with data-driven insights, modern technology, and strategic consulting that drives sustainable growth through comprehensive market research, renewable energy solutions, and custom digital development.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="services.html" class="btn btn-primary btn-lg me-3">
+                            <i class="fas fa-rocket me-2"></i>Explore Our Solutions
+                        </a>
+                        <a href="contact.html" class="btn btn-outline-primary btn-lg">
+                            <i class="fas fa-calendar me-2"></i>Schedule Consultation
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="hero-visual">
+                        <div class="floating-card glassmorphism-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Market Research & Intelligence</h4>
+                        </div>
+                        <div class="floating-card glassmorphism-card">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Renewable Energy Systems</h4>
+                        </div>
+                        <div class="floating-card glassmorphism-card">
+                            <i class="fas fa-flask"></i>
+                            <h4>Scientific Research</h4>
+                        </div>
+                        <div class="floating-card glassmorphism-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Corporate Training</h4>
+                        </div>
+                        <div class="floating-card glassmorphism-card">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Digital Solutions</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Bar -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card glassmorphism-card text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3 class="stat-number" data-count="10">0</h3>
+                        <p class="stat-label">Websites Built</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card glassmorphism-card text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3 class="stat-number" data-count="80">0</h3>
+                        <p class="stat-label">Business Plans Developed</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card glassmorphism-card text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 class="stat-number" data-count="16">0</h3>
+                        <p class="stat-label">Years Marketing Expertise</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card glassmorphism-card text-center">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3 class="stat-number" data-count="70">0</h3>
+                        <p class="stat-label">Feasibility Studies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section class="about-preview-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="glassmorphism-card p-4">
+                        <h2 class="section-title" style="font-family: var(--font-primary);">A Market Research Leader</h2>
+                        <p class="lead" style="font-family: var(--font-secondary);">
+                            Research Centre for Development in Science and Technology SL Ltd (ReCentDST SL Ltd) is a multi-disciplinary research and technology company comprised of a team of experts in Science, Marketing, Research, ICT and Technology.
+                        </p>
+                        <p style="font-family: var(--font-secondary);">
+                            The need for data cannot be overemphasized. Without data and information, investors cannot make informed decisions to put their resources in a specific location. We ensure data is accessible, accurate, and relevant.
+                        </p>
+                        <p style="font-family: var(--font-secondary);">
+                            Our team brings together 16+ years of Marketing expertise, 40+ years of Scientific research, 20+ years of ICT experience, and 20+ years in Corporate Training & Education.
+                        </p>
+                        <a href="about.html" class="btn btn-primary">
+                            <i class="fas fa-arrow-right me-2"></i>Discover Our Story
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="differentiators">
+                        <h3 class="mb-4" style="font-family: var(--font-primary);">Why Choose Research Centre for Development in Science and Technology SL Ltd (ReCentDST)</h3>
+                        <div class="differentiator-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>High Quality Service Delivery</span>
+                        </div>
+                        <div class="differentiator-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Reputable Client Confidentiality</span>
+                        </div>
+                        <div class="differentiator-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Honest, Efficient, Secure Results</span>
+                        </div>
+                        <div class="differentiator-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Tailored Results to Requirements</span>
+                        </div>
+                        <div class="differentiator-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>16+ Years Marketing Expertise</span>
+                        </div>
+                        <a href="about.html" class="btn btn-outline-primary mt-3">
+                            Learn More About Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Services Section -->
+    <section class="services-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Our Quality Services</h2>
+                <p class="section-subtitle">Comprehensive solutions across multiple disciplines</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Market Research & Intelligence</h4>
+                        <p>Strategic market research, competitive analysis, consumer behavior studies, and business viability assessments that empower informed business decisions and investment strategies.</p>
+                        <a href="services.html#market" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4>Renewable Energy Systems</h4>
+                        <p>Clean cooking biogas solutions, complete biogas systems, wind solutions, and innovative renewable energy technologies for sustainable development.</p>
+                        <a href="services.html#renewable" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                        <h4>Scientific & Environmental Research</h4>
+                        <p>Creative and systematic research to increase knowledge in science, technology, culture, and society, with practical applications for policy and development.</p>
+                        <a href="services.html#scientific" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h4>Corporate Training</h4>
+                        <p>Professional development programs, capacity building workshops, and specialized training services to enhance organizational capabilities and performance.</p>
+                        <a href="services.html#training" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>Digital Solutions</h4>
+                        <p>Fast, secure, and responsive websites, mobile applications, IoT solutions, and digital platforms tailored for SMEs, enterprises, and government agencies.</p>
+                        <a href="services.html#digital" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>Clean Cooking Solutions</h4>
+                        <p>Top-of-the-line complete biogas solutions, clean cooking technologies, and sustainable energy systems for households and communities.</p>
+                        <a href="services.html#cooking" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="service-card glassmorphism-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>Business Development Services</h4>
+                        <p>Business advising, coaching, management consulting, and strategic planning services to drive organizational growth and success.</p>
+                        <a href="services.html#business" class="btn btn-sm btn-outline-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="services.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-arrow-right me-2"></i>View All Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section class="projects-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Transforming Ideas into Impact</h2>
+                <p class="section-subtitle">Showcasing our successful projects and partnerships</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card glassmorphism-card">
+                        <div class="project-image">
+                            <img src="images/akis-aid.jpg" alt="AKIS Aid Platform" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-category">Agricultural Technology</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>AKIS Aid Platform</h4>
+                            <p>Agricultural Knowledge & Information System connecting 1000+ farmers to resources and extension services.</p>
+                            <div class="project-stats">
+                                <span><i class="fas fa-users"></i> 1000+ Farmers</span>
+                                <span><i class="fas fa-chart-line"></i> 40% Efficiency</span>
+                            </div>
+                            <a href="portfolio.html#akis" class="btn btn-primary btn-sm">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card glassmorphism-card">
+                        <div class="project-image">
+                            <img src="images/western-area-mapping.jpg" alt="Western Area Mapping" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-category">GIS & Urban Planning</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Western Area Mapping</h4>
+                            <p>Geographic Information System enhancing urban planning for government agencies and development organizations.</p>
+                            <div class="project-stats">
+                                <span><i class="fas fa-map"></i> 5+ Agencies</span>
+                                <span><i class="fas fa-chart-line"></i> 35% Efficiency</span>
+                            </div>
+                            <a href="portfolio.html#mapping" class="btn btn-primary btn-sm">View Case Study</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card glassmorphism-card">
+                        <div class="project-image">
+                            <img src="images/agrilinxs.jpg" alt="Agrilinxs Network" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-category">Agricultural Marketplace</div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h4>Agrilinxs Network</h4>
+                            <p>Digital agricultural marketplace connecting 500+ farmers to markets and improving supply chain efficiency.</p>
+                            <div class="project-stats">
+                                <span><i class="fas fa-users"></i> 500+ Farmers</span>
+                                <span><i class="fas fa-chart-line"></i> 25% Income</span>
+                            </div>
+                            <a href="portfolio.html#agrilinxs" class="btn btn-primary btn-sm">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="portfolio.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-arrow-right me-2"></i>View Complete Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section class="blog-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Latest Insights & Industry Updates</h2>
+                <p class="section-subtitle">Stay updated with our research findings and technology trends</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <article class="blog-card glassmorphism-card">
+                        <div class="blog-image">
+                            <img src="images/blog-digital-agriculture.jpg" alt="Digital Agriculture" class="img-fluid">
+                            <div class="blog-category">Tech Trends</div>
+                        </div>
+                        <div class="blog-content">
+                            <h4><a href="blog.html#digital-agriculture">Digital Agriculture: Transforming Food Security in West Africa</a></h4>
+                            <p>Digital technologies are revolutionizing agricultural practices across West Africa, with specific case studies from Sierra Leone's AKIS Aid platform.</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-calendar"></i> March 15, 2025</span>
+                                <span><i class="fas fa-clock"></i> 5 min read</span>
+                            </div>
+                            <a href="blog.html#digital-agriculture" class="btn btn-outline-primary btn-sm">Read Article</a>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <article class="blog-card glassmorphism-card">
+                        <div class="blog-image">
+                            <img src="images/blog-gis-urban.jpg" alt="GIS Urban Planning" class="img-fluid">
+                            <div class="blog-category">Research Insights</div>
+                        </div>
+                        <div class="blog-content">
+                            <h4><a href="blog.html#gis-urban">The Role of GIS Technology in Urban Planning: Sierra Leone Case Study</a></h4>
+                            <p>Deep dive into how Geographic Information Systems are enabling better urban planning decisions in Freetown.</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-calendar"></i> February 28, 2025</span>
+                                <span><i class="fas fa-clock"></i> 8 min read</span>
+                            </div>
+                            <a href="blog.html#gis-urban" class="btn btn-outline-primary btn-sm">Read Article</a>
+                        </div>
+                    </article>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <article class="blog-card glassmorphism-card">
+                        <div class="blog-image">
+                            <img src="images/blog-ngo-research.jpg" alt="NGO Research" class="img-fluid">
+                            <div class="blog-category">Market Analysis</div>
+                        </div>
+                        <div class="blog-content">
+                            <h4><a href="blog.html#ngo-research">Market Research Best Practices for NGO Program Design</a></h4>
+                            <p>Evidence-based guidelines for non-governmental organizations on conducting effective market research to inform program design.</p>
+                            <div class="blog-meta">
+                                <span><i class="fas fa-calendar"></i> March 1, 2025</span>
+                                <span><i class="fas fa-clock"></i> 12 min read</span>
+                            </div>
+                            <a href="blog.html#ngo-research" class="btn btn-outline-primary btn-sm">Read Report</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4" data-aos="fade-up">
+                <a href="blog.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-arrow-right me-2"></i>View All Articles & Research
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="glassmorphism-card p-5">
+                        <h2 class="cta-title">Partnering with you for the success of your institution!</h2>
+                        <p class="cta-subtitle">
+                            Let us hear from you! Partner with Sierra Leone's leading research and technology company for innovative solutions that deliver measurable impact.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-calendar me-2"></i>Schedule Free Consultation
+                            </a>
+                            <a href="contact.html#quote" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-calculator me-2"></i>Get Project Quote
+                            </a>
+                        </div>
+                        <p class="cta-trust mt-3">
+                            <i class="fas fa-shield-alt me-2"></i>Join 100+ organizations that trust ReCentDST
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glassmorphism-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="ReCentDST Limited" class="logo mb-3">
+                            <h5>ReCentDST Limited</h5>
+                        </div>
+                        <p>Research Centre for Development in Science and Technology - Partnering with you for institutional success.</p>
+                        <p><strong>EST. 2017</strong></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Services</h5>
+                        <ul class="footer-links">
+                            <li><a href="services.html#market">Market Research & Intelligence</a></li>
+                            <li><a href="services.html#renewable">Renewable Energy Systems</a></li>
+                            <li><a href="services.html#scientific">Scientific Research</a></li>
+                            <li><a href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                        <h6 class="mt-3">Expertise</h6>
+                        <ul class="footer-links">
+                            <li><a href="services.html#digital">Digital Solutions</a></li>
+                            <li><a href="services.html#cooking">Clean Cooking Solutions</a></li>
+                            <li><a href="services.html#business">Business Development</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Resources</h5>
+                        <ul class="footer-links">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio.html#case-studies">Case Studies</a></li>
+                            <li><a href="blog.html#resources">Downloads</a></li>
+                        </ul>
+                        <h6 class="mt-3">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Connect</h5>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i>51a Main Road Wilberforce, Freetown, Sierra Leone</p>
+                            <p><i class="fas fa-envelope"></i> info@recentdst.com</p>
+                            <p><i class="fas fa-phone"></i> +232 76 803154</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/louise-chaytor-50266277/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/recentds_t?t=SRS3qC4eVGuzDL13WOnvGw&s=08" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/recentdst?mibextid=ZbWKwL" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/recentds_t?igsh=MWRrc2R2dWRycWFrMw==" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="newsletter-section">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h5>Newsletter Signup</h5>
+                        <p>Get the latest research insights and tech updates</p>
+                        <form class="newsletter-form" id="newsletterForm">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email" id="newsletterEmail" required>
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright">
+                        &copy; 2025 ReCentDST Limited. All rights reserved. | 
+                        <a href="#privacy">Privacy Policy</a> | 
+                        <a href="#terms">Terms of Service</a> | 
+                        <a href="#sitemap">Sitemap</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

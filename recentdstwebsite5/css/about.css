@@ -1,0 +1,384 @@
+/* About Page Specific Styles */
+
+/* Page Hero */
+.page-hero {
+  position: relative;
+  padding: 120px 0 80px;
+  background: var(--gradient-hero);
+  overflow: hidden;
+}
+
+.page-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 0;
+}
+
+.breadcrumb {
+  background: transparent;
+  padding: 0;
+}
+
+.breadcrumb-item a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.breadcrumb-item.active {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Timeline Visual */
+.timeline-visual {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 60px;
+  top: 50px;
+  width: 2px;
+  height: 100%;
+  background: var(--gradient-primary);
+  z-index: 1;
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+.timeline-year {
+  background: var(--gradient-primary);
+  color: white;
+  width: 120px;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 4px 15px rgba(42, 63, 157, 0.3);
+}
+
+.timeline-content {
+  flex: 1;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: var(--glass-shadow);
+}
+
+.timeline-content h4 {
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+}
+
+/* Achievement Stats */
+.achievement-stats {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--glass-border);
+}
+
+.stat-item {
+  padding: 1rem;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Story Section */
+.our-story-section {
+  background: rgba(75, 175, 224, 0.05);
+}
+
+.story-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Vision & Mission Cards */
+.vision-mission-section {
+  background: rgba(244, 124, 32, 0.05);
+}
+
+.vm-icon {
+  width: 100px;
+  height: 100px;
+  background: var(--gradient-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem;
+  color: white;
+  font-size: 2.5rem;
+  box-shadow: 0 8px 25px rgba(42, 63, 157, 0.3);
+}
+
+.vm-title {
+  color: var(--primary-blue);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.vm-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+.vm-highlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: rgba(42, 63, 157, 0.1);
+  padding: 1rem;
+  border-radius: 25px;
+  color: var(--primary-blue);
+  font-weight: 600;
+}
+
+.mission-list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.mission-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.mission-list i {
+  color: var(--accent-orange);
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+/* Core Values */
+.value-card {
+  transition: var(--transition-smooth);
+  position: relative;
+  overflow: hidden;
+}
+
+.value-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-primary);
+}
+
+.value-icon {
+  width: 80px;
+  height: 80px;
+  background: var(--gradient-accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+  font-size: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.value-card:hover .value-icon {
+  transform: scale(1.1) rotate(10deg);
+}
+
+.value-title {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+.value-description {
+  line-height: 1.6;
+  color: var(--text-light);
+}
+
+/* Team Section */
+.expertise-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: rgba(42, 63, 157, 0.05);
+  border-radius: 10px;
+  transition: var(--transition-smooth);
+}
+
+.expertise-item:hover {
+  background: rgba(42, 63, 157, 0.1);
+  transform: translateX(5px);
+}
+
+.expertise-item i {
+  color: var(--primary-blue);
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  width: 20px;
+}
+
+/* Why Choose Us */
+.why-choose-card {
+  transition: var(--transition-smooth);
+  border-top: 4px solid transparent;
+}
+
+.why-choose-card:hover {
+  border-top-color: var(--accent-orange);
+  transform: translateY(-5px);
+}
+
+.why-icon {
+  width: 70px;
+  height: 70px;
+  background: var(--gradient-primary);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  color: white;
+  font-size: 1.8rem;
+  transition: var(--transition-smooth);
+}
+
+.why-choose-card:hover .why-icon {
+  transform: rotateY(180deg);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2.5rem;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .timeline-year {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .timeline-item::before {
+    display: none;
+  }
+
+  .vm-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+
+  .vm-title {
+    font-size: 1.5rem;
+  }
+
+  .achievement-stats .row {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .timeline-content {
+    padding: 1rem;
+  }
+
+  .value-icon,
+  .why-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+}
+
+/* Animation Enhancements */
+.timeline-item {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideInLeft 0.6s ease forwards;
+}
+
+.timeline-item:nth-child(even) {
+  transform: translateX(50px);
+  animation: slideInRight 0.6s ease forwards;
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Loading States */
+.timeline-item.aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Meeting - ReCentDST Limited</title>
+    <meta name="description" content="Schedule a consultation with ReCentDST Limited experts for your research and technology needs.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glassmorphism-nav" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="ReCentDST Limited" class="logo">
+                <span class="brand-text">ReCentDST</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu glassmorphism-dropdown">
+                            <li><a class="dropdown-item" href="services.html#research">Research & Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#digital">Digital Solutions</a></li>
+                            <li><a class="dropdown-item" href="services.html#market">Market Intelligence</a></li>
+                            <li><a class="dropdown-item" href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary cta-btn" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h1 class="hero-title">Schedule Your Consultation</h1>
+                    <p class="hero-subtitle">Book a comprehensive consultation with our experts to discuss your project requirements and receive professional recommendations.</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a href="contact.html">Contact</a></li>
+                            <li class="breadcrumb-item active">Book Meeting</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Meeting Form -->
+    <section class="book-meeting-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <div class="glassmorphism-card">
+                        <h3 class="mb-4">Book Your Meeting</h3>
+                        <p class="mb-4">Fill out the form below to schedule a consultation with our team. We'll get back to you within 24 hours to confirm your appointment.</p>
+                        
+                        <form class="contact-form" id="bookMeetingForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="fullName" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="fullName" name="fullName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="organization" class="form-label">Organization/Company</label>
+                                    <input type="text" class="form-control" id="organization" name="organization">
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="meetingType" class="form-label">Meeting Type *</label>
+                                    <select class="form-select" id="meetingType" name="meetingType" required>
+                                        <option value="">Select meeting type</option>
+                                        <option value="consultation">General Consultation</option>
+                                        <option value="project-discussion">Project Discussion</option>
+                                        <option value="partnership">Partnership Opportunity</option>
+                                        <option value="follow-up">Follow-up Meeting</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="meetingFormat" class="form-label">Preferred Format *</label>
+                                    <select class="form-select" id="meetingFormat" name="meetingFormat" required>
+                                        <option value="">Select format</option>
+                                        <option value="in-person">In-Person (Freetown Office)</option>
+                                        <option value="video-call">Video Call (Zoom/Teams)</option>
+                                        <option value="phone-call">Phone Call</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="preferredDate" class="form-label">Preferred Date *</label>
+                                    <input type="date" class="form-control" id="preferredDate" name="preferredDate" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="preferredTime" class="form-label">Preferred Time *</label>
+                                    <select class="form-select" id="preferredTime" name="preferredTime" required>
+                                        <option value="">Select time</option>
+                                        <option value="09:00">9:00 AM</option>
+                                        <option value="10:00">10:00 AM</option>
+                                        <option value="11:00">11:00 AM</option>
+                                        <option value="14:00">2:00 PM</option>
+                                        <option value="15:00">3:00 PM</option>
+                                        <option value="16:00">4:00 PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="duration" class="form-label">Expected Duration</label>
+                                <select class="form-select" id="duration" name="duration">
+                                    <option value="">Select duration</option>
+                                    <option value="30">30 minutes</option>
+                                    <option value="60">1 hour</option>
+                                    <option value="90">1.5 hours</option>
+                                    <option value="120">2 hours</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="agenda" class="form-label">Meeting Agenda/Topics to Discuss *</label>
+                                <textarea class="form-control" id="agenda" name="agenda" rows="5" placeholder="Please describe what you'd like to discuss during the meeting, your project requirements, goals, and any specific questions you have..." required></textarea>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required>
+                                    <label class="form-check-label" for="privacy">
+                                        I agree to the <a href="#privacy-policy">privacy policy</a> and <a href="#terms">terms of service</a> *
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="form-buttons">
+                                <button type="submit" class="btn btn-primary btn-lg me-3">
+                                    <i class="fas fa-calendar-check me-2"></i>Schedule Meeting
+                                </button>
+                                <a href="contact.html" class="btn btn-outline-secondary btn-lg">
+                                    <i class="fas fa-arrow-left me-2"></i>Back to Contact
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glassmorphism-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="ReCentDST Limited" class="logo mb-3">
+                            <h5>ReCentDST Limited</h5>
+                        </div>
+                        <p>Research Centre for Development in Science and Technology - Partnering with you for institutional success.</p>
+                        <p><strong>EST. 2017</strong></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Services</h5>
+                        <ul class="footer-links">
+                            <li><a href="services.html#market">Market Research & Intelligence</a></li>
+                            <li><a href="services.html#renewable">Renewable Energy Systems</a></li>
+                            <li><a href="services.html#scientific">Scientific Research</a></li>
+                            <li><a href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Resources</h5>
+                        <ul class="footer-links">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Connect</h5>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i>51a Main Motor Road, Wilberforce, Freetown, Sierra Leone</p>
+                            <p><i class="fas fa-envelope"></i> info@recentdst.com</p>
+                            <p><i class="fas fa-phone"></i> +232 76 803154</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright">
+                        &copy; 2025 ReCentDST Limited. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

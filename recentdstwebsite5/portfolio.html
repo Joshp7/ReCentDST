@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - ReCentDST Limited | Our Projects & Case Studies</title>
+    <meta name="description" content="Explore ReCent DST Limited's portfolio of successful projects including AKIS Aid Platform, Western Area Mapping, Agrilinxs Network, and more innovative solutions.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glassmorphism-nav" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="ReCentDST Limited" class="logo">
+                <span class="brand-text">ReCentDST</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu glassmorphism-dropdown">
+                            <li><a class="dropdown-item" href="services.html#research">Research & Development</a></li>
+                            <li><a class="dropdown-item" href="services.html#digital">Digital Solutions</a></li>
+                            <li><a class="dropdown-item" href="services.html#market">Market Intelligence</a></li>
+                            <li><a class="dropdown-item" href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary cta-btn" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h1 class="hero-title">Our Work: Transforming Ideas into Impact</h1>
+                    <p class="hero-subtitle">Showcasing successful projects and partnerships across multiple sectors that demonstrate our commitment to innovation and excellence.</p>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active">Portfolio</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section class="filters-section py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="filter-buttons text-center" data-aos="fade-up">
+                        <button class="btn btn-outline-primary filter-btn active" data-filter="all">All Projects</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="research">Research</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="digital">Digital Solutions</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="gis">GIS</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="agricultural">Agricultural</button>
+                        <button class="btn btn-outline-primary filter-btn" data-filter="government">Government</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="portfolio-section py-5">
+        <div class="container">
+            <div class="row portfolio-grid">
+                <!-- AKIS Aid Platform -->
+                <div class="col-lg-6 col-md-6 mb-4 portfolio-item" data-category="digital agricultural" data-aos="fade-up">
+                    <div class="portfolio-card glassmorphism-card">
+                        <div class="portfolio-image">
+                            <img src="images/akis-aid.jpg" alt="AKIS Aid Platform" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h4>AKIS Aid Platform</h4>
+                                    <p>Agricultural Knowledge & Information System</p>
+                                    <a href="#akis-modal" class="btn btn-primary" data-bs-toggle="modal">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">Agricultural Technology</div>
+                            <h4>AKIS Aid Platform</h4>
+                            <p>Comprehensive technology-driven platform supporting agricultural initiatives across Sierra Leone, connecting 1000+ farmers to resources.</p>
+                            <div class="portfolio-stats">
+                                <span><i class="fas fa-users"></i> 1000+ Farmers</span>
+                                <span><i class="fas fa-chart-line"></i> 40% Efficiency Gain</span>
+                                <span><i class="fas fa-mobile-alt"></i> Mobile-First Design</span>
+                            </div>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">PHP/Laravel</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Western Area Mapping -->
+                <div class="col-lg-6 col-md-6 mb-4 portfolio-item" data-category="gis government" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card glassmorphism-card">
+                        <div class="portfolio-image">
+                            <img src="images/western-area-mapping.jpg" alt="Western Area Mapping" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h4>Western Area Mapping</h4>
+                                    <p>Geographic Information System for Urban Planning</p>
+                                    <a href="#mapping-modal" class="btn btn-primary" data-bs-toggle="modal">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">GIS & Urban Planning</div>
+                            <h4>Western Area Zonal Mapping</h4>
+                            <p>Innovative GIS-based solution dividing Sierra Leone's Western Area into manageable zones for better urban planning and resource allocation.</p>
+                            <div class="portfolio-stats">
+                                <span><i class="fas fa-map"></i> 5+ Government Agencies</span>
+                                <span><i class="fas fa-chart-line"></i> 35% Resource Efficiency</span>
+                                <span><i class="fas fa-database"></i> Interactive Data</span>
+                            </div>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">GIS Technology</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">Web Mapping</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Agrilinxs Network -->
+                <div class="col-lg-6 col-md-6 mb-4 portfolio-item" data-category="digital agricultural" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card glassmorphism-card">
+                        <div class="portfolio-image">
+                            <img src="images/agrilinxs.jpg" alt="Agrilinxs Network" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h4>Agrilinxs Network</h4>
+                                    <p>Digital Agricultural Marketplace</p>
+                                    <a href="#agrilinxs-modal" class="btn btn-primary" data-bs-toggle="modal">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">Agricultural Marketplace</div>
+                            <h4>Agrilinxs Network Platform</h4>
+                            <p>Digital agricultural marketplace connecting farmers, suppliers, and buyers in a streamlined ecosystem with transparent transactions.</p>
+                            <div class="portfolio-stats">
+                                <span><i class="fas fa-users"></i> 500+ Farmers</span>
+                                <span><i class="fas fa-chart-line"></i> 25% Income Increase</span>
+                                <span><i class="fas fa-mobile-alt"></i> Mobile Money Integration</span>
+                            </div>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Multi-language</span>
+                                <span class="tech-tag">Payment Gateway</span>
+                                <span class="tech-tag">GPS Services</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sonako Homes -->
+                <div class="col-lg-6 col-md-6 mb-4 portfolio-item" data-category="digital" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card glassmorphism-card">
+                        <div class="portfolio-image">
+                            <img src="images/sonako-homes.jpg" alt="Sonako Homes Platform" class="img-fluid">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-info">
+                                    <h4>Sonako Homes</h4>
+                                    <p>Real Estate Digital Platform</p>
+                                    <a href="#sonako-modal" class="btn btn-primary" data-bs-toggle="modal">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">Real Estate Technology</div>
+                            <h4>Sonako Homes Digital Platform</h4>
+                            <p>Modern digital property platform showcasing contemporary homes and facilitating real estate transactions in Sierra Leone's growing market.</p>
+                            <div class="portfolio-stats">
+                                <span><i class="fas fa-home"></i> 200+ Properties</span>
+                                <span><i class="fas fa-chart-line"></i> 40% Marketing Reach</span>
+                                <span><i class="fas fa-search"></i> Advanced Search</span>
+                            </div>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">CMS</span>
+                                <span class="tech-tag">Image Optimization</span>
+                                <span class="tech-tag">SEO Optimized</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Technologies We Use</h2>
+                <p class="section-subtitle">Cutting-edge tools and frameworks powering our solutions</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="tech-category glassmorphism-card">
+                        <h4><i class="fas fa-chart-bar me-2"></i>Research & Analytics</h4>
+                        <div class="tech-list">
+                            <span class="tech-item">Survey CTO</span>
+                            <span class="tech-item">SPSS & R</span>
+                            <span class="tech-item">Tableau</span>
+                            <span class="tech-item">Google Analytics</span>
+                            <span class="tech-item">Power BI</span>
+                            <span class="tech-item">ArcGIS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tech-category glassmorphism-card">
+                        <h4><i class="fas fa-code me-2"></i>Development & Design</h4>
+                        <div class="tech-list">
+                            <span class="tech-item">PHP/Laravel</span>
+                            <span class="tech-item">JavaScript/React</span>
+                            <span class="tech-item">MySQL/PostgreSQL</span>
+                            <span class="tech-item">WordPress/Drupal</span>
+                            <span class="tech-item">Amazon Web Services</span>
+                            <span class="tech-item">Git Version Control</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tech-category glassmorphism-card">
+                        <h4><i class="fas fa-tasks me-2"></i>Project Management</h4>
+                        <div class="tech-list">
+                            <span class="tech-item">Asana</span>
+                            <span class="tech-item">Google Workspace</span>
+                            <span class="tech-item">Slack</span>
+                            <span class="tech-item">Zoom</span>
+                            <span class="tech-item">Trello</span>
+                            <span class="tech-item">Microsoft Project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Trusted by organizations across multiple sectors</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="testimonial-card glassmorphism-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"AKIS Aid has revolutionized how we reach farmers and collect program data. The system's user-friendly design and comprehensive features have made our extension services more effective than ever before."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Agricultural Development Program</h5>
+                                <span>Program Manager</span>
+                            </div>
+                            <div class="client-logo">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card glassmorphism-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"The Western Area Mapping system has significantly improved our urban planning capabilities. The detailed zonal maps and data visualization tools have enhanced our decision-making process."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Ministry of Local Government</h5>
+                                <span>Planning Director</span>
+                            </div>
+                            <div class="client-logo">
+                                <i class="fas fa-building"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card glassmorphism-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p>"ReCent DST's professional approach and technical expertise delivered exactly what we needed. The Sonako Homes platform has transformed our property marketing and client engagement."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h5>Sonako Homes</h5>
+                                <span>Managing Director</span>
+                            </div>
+                            <div class="client-logo">
+                                <i class="fas fa-home"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="glassmorphism-card p-5">
+                        <h2 class="cta-title">Ready to Start Your Next Project?</h2>
+                        <p class="cta-subtitle">
+                            Let's discuss how we can help transform your ideas into impactful solutions that drive real results.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-calendar me-2"></i>Schedule Consultation
+                            </a>
+                            <a href="contact.html#quote" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-calculator me-2"></i>Get Project Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <!-- AKIS Aid Modal -->
+    <div class="modal fade" id="akis-modal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content glassmorphism-modal">
+                <div class="modal-header">
+                    <h5 class="modal-title">AKIS Aid Platform - Detailed Case Study</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/akis-aid.jpg" alt="AKIS Aid Platform" class="img-fluid rounded mb-3">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Project Overview</h4>
+                            <p>AKIS Aid is a comprehensive technology-driven platform designed to support agricultural initiatives across Sierra Leone. The system serves as a central hub for agricultural knowledge sharing, farmer support, and agricultural development program management.</p>
+                            
+                            <h5>Challenge</h5>
+                            <p>Agricultural extension services in Sierra Leone lacked a coordinated digital platform to effectively reach farmers, share best practices, and monitor agricultural development programs.</p>
+                            
+                            <h5>Our Solution</h5>
+                            <ul>
+                                <li>Farmer registration and profiling system</li>
+                                <li>Agricultural knowledge database and resource library</li>
+                                <li>Communication tools for extension services</li>
+                                <li>Data collection and monitoring capabilities</li>
+                                <li>Mobile-friendly interface for field use</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h5>Technologies Used</h5>
+                            <div class="tech-tags mb-3">
+                                <span class="tech-tag">PHP/Laravel Framework</span>
+                                <span class="tech-tag">MySQL Database</span>
+                                <span class="tech-tag">Responsive Web Design</span>
+                                <span class="tech-tag">Mobile-First Approach</span>
+                                <span class="tech-tag">API Integration</span>
+                                <span class="tech-tag">Cloud Hosting</span>
+                            </div>
+                            
+                            <h5>Results & Impact</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Connected 1,000+ farmers to agricultural resources</li>
+                                        <li>Streamlined extension service delivery</li>
+                                        <li>Improved data collection and program monitoring</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Enhanced knowledge sharing between farmers and extension agents</li>
+                                        <li>Increased program efficiency and impact measurement</li>
+                                        <li>95% user satisfaction rating</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="contact.html" class="btn btn-primary">Start Similar Project</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Similar modals for other projects would go here -->
+
+    <!-- Footer -->
+    <footer class="footer glassmorphism-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="ReCentDST Limited" class="logo mb-3">
+                            <h5>ReCentDST Limited</h5>
+                        </div>
+                        <p>Innovating through research and technology for sustainable development across Africa.</p>
+                        <p><strong>EST. 2017</strong></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Services</h5>
+                        <ul class="footer-links">
+                            <li><a href="services.html#research">Research & Development</a></li>
+                            <li><a href="services.html#digital">Digital Solutions</a></li>
+                            <li><a href="services.html#market">Market Intelligence</a></li>
+                            <li><a href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                        <h6 class="mt-3">Expertise</h6>
+                        <ul class="footer-links">
+                            <li><a href="services.html">Web Development</a></li>
+                            <li><a href="services.html">GIS Solutions</a></li>
+                            <li><a href="services.html">Data Analytics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Resources</h5>
+                        <ul class="footer-links">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio.html#case-studies">Case Studies</a></li>
+                            <li><a href="blog.html#resources">Downloads</a></li>
+                        </ul>
+                        <h6 class="mt-3">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Connect</h5>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i>51a Main Road Wilberforce, Freetown, Sierra Leone</p>
+                            <p><i class="fas fa-envelope"></i> info@recentdst.com</p>
+                            <p><i class="fas fa-phone"></i> +232 76 328 067 </p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/louise-chaytor-50266277/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/recentds_t?t=SRS3qC4eVGuzDL13WOnvGw&s=08" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/recentdst?mibextid=ZbWKwL" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/recentds_t?igsh=MWRrc2R2dWRycWFrMw==" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="newsletter-section">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h5>Newsletter Signup</h5>
+                        <p>Get the latest research insights and tech updates</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright">
+                        &copy; 2025 ReCentDST Limited. All rights reserved. | 
+                        <a href="#privacy">Privacy Policy</a> | 
+                        <a href="#terms">Terms of Service</a> | 
+                        <a href="#sitemap">Sitemap</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

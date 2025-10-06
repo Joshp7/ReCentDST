@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - ReCentDST Limited | Research, Digital Solutions & Market Intelligence</title>
+    <meta name="description" content="Comprehensive research and technology services by ReCent DST Limited. Research & Development, Digital Solutions, Market Intelligence, and Corporate Training.">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glassmorphism-nav" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="ReCentDST Limited" class="logo">
+                <span class="brand-text">ReCentDST</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="services.html" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu glassmorphism-dropdown">
+                            <li><a class="dropdown-item" href="#research">Research & Development</a></li>
+                            <li><a class="dropdown-item" href="#digital">Digital Solutions</a></li>
+                            <li><a class="dropdown-item" href="#market">Market Intelligence</a></li>
+                            <li><a class="dropdown-item" href="#training">Corporate Training</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm theme-toggle" id="themeToggle">
+                            <i class="fas fa-moon"></i>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary cta-btn" href="contact.html">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <nav aria-label="breadcrumb" class="mb-4">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Services</li>
+                        </ol>
+                    </nav>
+                    <h1 class="page-title">Comprehensive Solutions for Modern Challenges</h1>
+                    <p class="page-subtitle">Expert services in research, technology, and strategic consulting tailored to drive sustainable growth and innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="services-overview py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-overview-card glassmorphism-card text-center h-100">
+                        <div class="service-number">01</div>
+                        <div class="service-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <h3>Research & Development</h3>
+                        <p>Comprehensive research services that inform strategic decision-making and drive evidence-based solutions.</p>
+                        <a href="#research" class="btn btn-outline-primary">Explore Research</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-overview-card glassmorphism-card text-center h-100">
+                        <div class="service-number">02</div>
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Digital Solutions</h3>
+                        <p>Fast, secure, and responsive digital platforms tailored for businesses, government agencies, and NGOs.</p>
+                        <a href="#digital" class="btn btn-outline-primary">Explore Digital</a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-overview-card glassmorphism-card text-center h-100">
+                        <div class="service-number">03</div>
+                        <div class="service-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>Market Intelligence</h3>
+                        <p>Strategic market research and competitive analysis that empowers informed business decisions.</p>
+                        <a href="#market" class="btn btn-outline-primary">Explore Intelligence</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research & Development Section -->
+    <section id="research" class="service-detail-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="service-visual">
+                        <div class="service-image-container">
+                            <img src="images/research-development.jpg" alt="Research & Development" class="img-fluid rounded">
+                            <div class="service-overlay">
+                                <div class="service-stats">
+                                    <div class="stat-item">
+                                        <h4>100+</h4>
+                                        <p>Research Projects</p>
+                                    </div>
+                                    <div class="stat-item">
+                                        <h4>15+</h4>
+                                        <p>Research Areas</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="service-content">
+                        <div class="service-badge">Research & Development</div>
+                        <h2 class="service-title">Evidence-Based Research Solutions</h2>
+                        <p class="service-description">
+                            Our research and development services form the cornerstone of evidence-based decision-making for organizations across sectors. We specialize in both qualitative and quantitative research methodologies, delivering insights that inform market strategies, policy development, and program design.
+                        </p>
+                        
+                        <div class="service-categories">
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Market Research & Intelligence</h4>
+                                    <p>Comprehensive market research providing statistical data on market size, competitive landscape, and consumer behavior.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Scientific Research & Innovation</h4>
+                                    <p>Creative and systematic research across multiple disciplines with practical applications for policy and development.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Policy Research & Analysis</h4>
+                                    <p>Research support for policy development, program evaluation, and impact assessment for actionable implementation.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-deliverables">
+                            <h4>Key Deliverables:</h4>
+                            <ul class="deliverables-list">
+                                <li><i class="fas fa-check"></i> Market Size Analysis & Projections</li>
+                                <li><i class="fas fa-check"></i> Competitive Intelligence Reports</li>
+                                <li><i class="fas fa-check"></i> Consumer Behavior Studies</li>
+                                <li><i class="fas fa-check"></i> Business Viability Assessments</li>
+                                <li><i class="fas fa-check"></i> Policy Recommendations</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">Get Research Quote</a>
+                            <a href="portfolio.html" class="btn btn-outline-primary btn-lg">View Research Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Digital Solutions Section -->
+    <section id="digital" class="service-detail-section py-5 bg-light-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="service-visual">
+                        <div class="service-image-container">
+                            <img src="images/digital-solutions.jpg" alt="Digital Solutions" class="img-fluid rounded">
+                            <div class="service-overlay">
+                                <div class="service-stats">
+                                    <div class="stat-item">
+                                        <h4>50+</h4>
+                                        <p>Websites Built</p>
+                                    </div>
+                                    <div class="stat-item">
+                                        <h4>30+</h4>
+                                        <p>Active Projects</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="service-content">
+                        <div class="service-badge">Digital Solutions</div>
+                        <h2 class="service-title">Modern Web Development & Digital Platforms</h2>
+                        <p class="service-description">
+                            Our digital solutions combine modern design principles with robust functionality to create platforms that serve your specific needs. We have successfully built and managed over 50 websites for government agencies, businesses, and NGOs.
+                        </p>
+                        
+                        <div class="service-categories">
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Custom Website Development</h4>
+                                    <p>Dynamic and responsive websites tailored to your unique needs - corporate sites, e-commerce platforms, and information portals.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-cogs"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Web Management & Hosting</h4>
+                                    <p>Comprehensive website management and hosting services ensuring your digital presence remains secure and optimized.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Mobile-First Development</h4>
+                                    <p>Responsive design ensuring optimal performance across all devices - mobile, tablet, and desktop.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-features">
+                            <h4>Features & Capabilities:</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="features-list">
+                                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                                        <li><i class="fas fa-check"></i> Content Management Systems</li>
+                                        <li><i class="fas fa-check"></i> E-commerce Integration</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="features-list">
+                                        <li><i class="fas fa-check"></i> SEO Optimization</li>
+                                        <li><i class="fas fa-check"></i> Security & Performance</li>
+                                        <li><i class="fas fa-check"></i> Multi-language Support</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">Start Your Project</a>
+                            <a href="portfolio.html" class="btn btn-outline-primary btn-lg">View Our Work</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Intelligence Section -->
+    <section id="market" class="service-detail-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="service-visual">
+                        <div class="service-image-container">
+                            <img src="images/market-intelligence.jpg" alt="Market Intelligence" class="img-fluid rounded">
+                            <div class="service-overlay">
+                                <div class="service-stats">
+                                    <div class="stat-item">
+                                        <h4>25+</h4>
+                                        <p>Market Studies</p>
+                                    </div>
+                                    <div class="stat-item">
+                                        <h4>10+</h4>
+                                        <p>Industries Covered</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="service-content">
+                        <div class="service-badge">Market Intelligence</div>
+                        <h2 class="service-title">Strategic Market Research & Analytics</h2>
+                        <p class="service-description">
+                            Our market intelligence services provide the critical data analysis that companies need before entering new markets or launching new products. We gather, analyze, and present information in formats that directly support strategic decision-making.
+                        </p>
+                        
+                        <div class="service-categories">
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-search"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Market Entry Analysis</h4>
+                                    <p>Comprehensive assessment of market opportunities, competitor analysis, regulatory environment, and entry barriers.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Consumer Research</h4>
+                                    <p>In-depth studies of consumer behavior, preferences, purchasing patterns, and decision-making processes.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-chart-pie"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Business Intelligence</h4>
+                                    <p>Ongoing data collection and analysis including sales performance tracking and competitive monitoring.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="intelligence-benefits">
+                            <h4>Research Areas:</h4>
+                            <div class="benefits-grid">
+                                <div class="benefit-item">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Market Size & Demographics</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-building"></i>
+                                    <span>Infrastructure Analysis</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                    <span>Spending Habits Assessment</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-balance-scale"></i>
+                                    <span>Regulatory Environment</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">Request Analysis</a>
+                            <a href="blog.html" class="btn btn-outline-primary btn-lg">Read Insights</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporate Training Section -->
+    <section id="training" class="service-detail-section py-5 bg-light-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="service-visual">
+                        <div class="service-image-container">
+                            <img src="images/corporate-training.jpg" alt="Corporate Training" class="img-fluid rounded">
+                            <div class="service-overlay">
+                                <div class="service-stats">
+                                    <div class="stat-item">
+                                        <h4>500+</h4>
+                                        <p>Professionals Trained</p>
+                                    </div>
+                                    <div class="stat-item">
+                                        <h4>20+</h4>
+                                        <p>Training Programs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="service-content">
+                        <div class="service-badge">Corporate Training</div>
+                        <h2 class="service-title">Capacity Building & Professional Development</h2>
+                        <p class="service-description">
+                            Our corporate training programs are designed to improve employee skills and knowledge at a convenient pace, enhancing their ability to work effectively in contemporary changing environments and improving both efficiency and productivity.
+                        </p>
+                        
+                        <div class="service-categories">
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-laptop"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Technology & Digital Skills</h4>
+                                    <p>Training programs that enable organizations to make effective use of advanced technology and adapt to changing environments.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-chart-bar"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Research Methods & Data Analysis</h4>
+                                    <p>Capacity building in research methodologies, data collection techniques, and analytical tools.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="category-item">
+                                <div class="category-icon">
+                                    <i class="fas fa-users-cog"></i>
+                                </div>
+                                <div class="category-content">
+                                    <h4>Project Management & Leadership</h4>
+                                    <p>Professional development programs focused on project management best practices and leadership skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="training-benefits">
+                            <h4>Benefits of Our Training Programs:</h4>
+                            <ul class="benefits-list">
+                                <li><i class="fas fa-arrow-up"></i> Improved Employee Efficiency & Motivation</li>
+                                <li><i class="fas fa-chart-line"></i> Enhanced Productivity & Job Satisfaction</li>
+                                <li><i class="fas fa-sync-alt"></i> Better Adaptation to Technological Changes</li>
+                                <li><i class="fas fa-building"></i> Stronger Organizational Capacity</li>
+                                <li><i class="fas fa-dollar-sign"></i> Improved Bottom Line Results</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">Schedule Training</a>
+                            <a href="contact.html" class="btn btn-outline-primary btn-lg">Custom Program</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Overview Section -->
+    <section class="process-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">How We Work: Our Proven Process</h2>
+                <p class="section-subtitle">A systematic approach ensuring quality delivery and client satisfaction</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-step glassmorphism-card text-center">
+                        <div class="step-number">01</div>
+                        <div class="step-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>Discovery</h4>
+                        <p>Research & Analysis of your needs, market conditions, and project requirements</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-step glassmorphism-card text-center">
+                        <div class="step-number">02</div>
+                        <div class="step-icon">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                        <h4>Planning</h4>
+                        <p>Strategy Development with clear timelines, deliverables, and success metrics</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-step glassmorphism-card text-center">
+                        <div class="step-number">03</div>
+                        <div class="step-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h4>Execution</h4>
+                        <p>Implementation & Monitoring with regular updates and quality assurance</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="process-step glassmorphism-card text-center">
+                        <div class="step-number">04</div>
+                        <div class="step-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h4>Delivery</h4>
+                        <p>Results & Follow-up with comprehensive reporting and ongoing support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section py-5 bg-light-section">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Technologies & Tools We Use</h2>
+                <p class="section-subtitle">Cutting-edge tools and platforms for superior results</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="tech-category glassmorphism-card">
+                        <h4><i class="fas fa-chart-bar me-2"></i>Research & Analytics</h4>
+                        <div class="tech-items">
+                            <span class="tech-item">Survey CTO</span>
+                            <span class="tech-item">SPSS & R</span>
+                            <span class="tech-item">Tableau</span>
+                            <span class="tech-item">Google Analytics</span>
+                            <span class="tech-item">Power BI</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="tech-category glassmorphism-card">
+                        <h4><i class="fas fa-code me-2"></i>Development & Design</h4>
+                        <div class="tech-items">
+                            <span class="tech-item">PHP/Laravel</span>
+                            <span class="tech-item">JavaScript/React</span>
+                            <span class="tech-item">MySQL/PostgreSQL</span>
+                            <span class="tech-item">WordPress/Drupal</span>
+                            <span class="tech-item">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="tech-category glassmorphism-card">
+                        <h4><i class="fas fa-tasks me-2"></i>Project Management</h4>
+                        <div class="tech-items">
+                            <span class="tech-item">Asana</span>
+                            <span class="tech-item">Google Workspace</span>
+                            <span class="tech-item">Slack</span>
+                            <span class="tech-item">Zoom</span>
+                            <span class="tech-item">Trello</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <div class="glassmorphism-card p-5">
+                        <h2 class="cta-title">Ready to Get Started?</h2>
+                        <p class="cta-subtitle">
+                            Let's discuss how our comprehensive services can help you achieve your goals and drive sustainable growth.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="contact.html" class="btn btn-primary btn-lg me-3">
+                                <i class="fas fa-calendar me-2"></i>Schedule Consultation
+                            </a>
+                            <a href="contact.html#quote" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-calculator me-2"></i>Get Service Quote
+                            </a>
+                        </div>
+                        <p class="cta-trust mt-3">
+                            <i class="fas fa-shield-alt me-2"></i>Trusted by 100+ organizations across multiple sectors
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer glassmorphism-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="images/logo.png" alt="ReCentDST Limited" class="logo mb-3">
+                            <h5>ReCentDST Limited</h5>
+                        </div>
+                        <p>Innovating through research and technology for sustainable development across Africa.</p>
+                        <p><strong>EST. 2017</strong></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Services</h5>
+                        <ul class="footer-links">
+                            <li><a href="services.html#research">Research & Development</a></li>
+                            <li><a href="services.html#digital">Digital Solutions</a></li>
+                            <li><a href="services.html#market">Market Intelligence</a></li>
+                            <li><a href="services.html#training">Corporate Training</a></li>
+                        </ul>
+                        <h6 class="mt-3">Expertise</h6>
+                        <ul class="footer-links">
+                            <li><a href="services.html">Web Development</a></li>
+                            <li><a href="services.html">GIS Solutions</a></li>
+                            <li><a href="services.html">Data Analytics</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Resources</h5>
+                        <ul class="footer-links">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio.html#case-studies">Case Studies</a></li>
+                            <li><a href="blog.html#resources">Downloads</a></li>
+                        </ul>
+                        <h6 class="mt-3">Quick Links</h6>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#privacy">Privacy Policy</a></li>
+                            <li><a href="#terms">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5>Connect</h5>
+                        <div class="contact-info">
+                            <p><i class="fas fa-map-marker-alt"></i>51a Main Road Wilberforce, Freetown, Sierra Leone</p>
+                            <p><i class="fas fa-envelope"></i> info@recentdst.com</p>
+                            <p><i class="fas fa-phone"></i> +232 76 328 067 </p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/louise-chaytor-50266277/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://x.com/recentds_t?t=SRS3qC4eVGuzDL13WOnvGw&s=08" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/recentdst?mibextid=ZbWKwL" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/recentds_t?igsh=MWRrc2R2dWRycWFrMw==" class="social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="newsletter-section">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h5>Newsletter Signup</h5>
+                        <p>Get the latest research insights and tech updates</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="footer-divider">
+            
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="copyright">
+                        &copy; 2025 ReCentDST Limited. All rights reserved. | 
+                        <a href="#privacy">Privacy Policy</a> | 
+                        <a href="#terms">Terms of Service</a> | 
+                        <a href="#sitemap">Sitemap</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
